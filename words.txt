@@ -1,0 +1,7 @@
+apple
+wolf
+mold
+chair
+mouse
+dog
+tree
