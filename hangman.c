@@ -62,5 +62,5 @@ void hangman(char *word) {
     for(i = 0; i < length; i++)
         guesses[i] = '-';
 
-
+    printf("%s", guesses);
 }

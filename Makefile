@@ -1,9 +1,9 @@
-CC=gcc
+CC=clang
 CFLAGS=-Wall
+OUTFILE=hangman
 
 all:
-	$(CC) $(CFLAGS) -o hangman-c hangman.c
-	chmod +x ./hangman-c
+	$(CC) $(CFLAGS) -o $(OUTFILE) hangman.c
 clean:
-	rm -rf hangman-c
+	rm -rf $(OUTFILE)
 
