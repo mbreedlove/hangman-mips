@@ -1,9 +1,9 @@
 CC=clang
 CFLAGS=-Wall
-OUTFILE=hangman
+OUTFILE=bin/hangman
 
 all:
-	$(CC) $(CFLAGS) -o $(OUTFILE) hangman.c
+	$(CC) $(CFLAGS) -o $(OUTFILE) src/C/hangman.c
 clean:
-	rm -rf $(OUTFILE)
+	rm -rf bin/*
 
